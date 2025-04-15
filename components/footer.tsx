@@ -1,7 +1,5 @@
 "use client"
-
 import { motion } from "framer-motion"
-
 export default function Footer() {
   return (
     <footer className="py-6 bg-white dark:bg-primary-black border-t border-gray-200 dark:border-gray-800">
@@ -13,7 +11,7 @@ export default function Footer() {
           transition={{ duration: 0.5 }}
           className="text-sm text-gray-600 dark:text-gray-400"
         >
-          &copy; {new Date().getFullYear()} Soumita Jana. All rights reserved.
+          &copy; {new Date().getFullYear()} Soumita Jana . All rights reserved.
         </motion.p>
       </div>
     </footer>

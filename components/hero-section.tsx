@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import { useEffect, useState } from "react"
 import { motion } from "framer-motion"
 import { ArrowDown } from "lucide-react"
@@ -23,31 +24,24 @@ export default function HeroSection() {
             className="order-1 md:order-2 w-full md:w-2/5 flex justify-center"
           >
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-red/20 shadow-xl">
-              {/* Placeholder for Soumita's image */}
-              <div className="absolute inset-0 bg-gradient-to-br from-red/10 to-red-second/10 flex items-center justify-center text-gray-400 dark:text-gray-600">
-                <p className="text-center px-4">Add Soumita's Photo Here</p>
-              </div>
-              
-              { 
               <Image 
-                src="https://postimg.cc/Z9cpM7rb" 
+                src="https://i.postimg.cc/7YpqRnhH/soumita.jpg" // replace this with your actual image URL
                 alt="Soumita Jana" 
                 fill
                 className="object-cover"
                 priority
-              /> 
-              }
+              />
 
               {/* Decorative elements */}
               <motion.div
                 className="absolute -top-2 -right-2 w-8 h-8 rounded-full bg-red"
                 animate={{ scale: [1, 1.2, 1] }}
-                transition={{ repeat: Number.POSITIVE_INFINITY, duration: 3, ease: "easeInOut" }}
+                transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
               />
               <motion.div
                 className="absolute -bottom-2 -left-2 w-6 h-6 rounded-full bg-red-second"
                 animate={{ scale: [1, 1.3, 1] }}
-                transition={{ repeat: Number.POSITIVE_INFINITY, duration: 2.5, ease: "easeInOut", delay: 0.5 }}
+                transition={{ repeat: Infinity, duration: 2.5, ease: "easeInOut", delay: 0.5 }}
               />
             </div>
           </motion.div>
@@ -70,7 +64,7 @@ export default function HeroSection() {
                 animate={{
                   color: ["#d00b02", "#661511", "#d00b02"],
                 }}
-                transition={{ duration: 4, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
+                transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
               >
                 Soumita
               </motion.span>{" "}
@@ -111,7 +105,7 @@ export default function HeroSection() {
                 <span className="mr-2">Discover More</span>
                 <motion.div
                   animate={{ y: [0, 10, 0] }}
-                  transition={{ repeat: Number.POSITIVE_INFINITY, duration: 1.5 }}
+                  transition={{ repeat: Infinity, duration: 1.5 }}
                 >
                   <ArrowDown size={20} />
                 </motion.div>

@@ -25,7 +25,7 @@ export default function HeroSection() {
           >
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-red/20 shadow-xl">
               <Image 
-                src="https://i.postimg.cc/7YpqRnhH/soumita.jpg" // replace this with your actual image URL
+                src="https://i.postimg.cc/1txB4bXq/IMG-20230916-184544.jpg" // replace this with your actual image URL
                 alt="Soumita Jana" 
                 fill
                 className="object-cover"

@@ -27,17 +27,16 @@ export default function HeroSection() {
               <div className="absolute inset-0 bg-gradient-to-br from-red/10 to-red-second/10 flex items-center justify-center text-gray-400 dark:text-gray-600">
                 <p className="text-center px-4">Add Soumita's Photo Here</p>
               </div>
-
-              {/* Uncomment and update the src when you have the actual image */}
-              {/* 
+              
+              { 
               <Image 
-                src="/images/soumita-jana.jpg" 
+                src="https://postimg.cc/Z9cpM7rb" 
                 alt="Soumita Jana" 
                 fill
                 className="object-cover"
                 priority
               /> 
-              */}
+              }
 
               {/* Decorative elements */}
               <motion.div

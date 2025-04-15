@@ -25,7 +25,7 @@ export default function HeroSection() {
           >
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-red/20 shadow-xl">
               <Image 
-                src="https://i.postimg.cc/1txB4bXq/IMG-20230916-184544.jpg" // replace this with your actual image URL
+                src="https://i.postimg.cc/Zn654BgN/137395770.jpg" // replace this with your actual image URL
                 alt="Soumita Jana" 
                 fill
                 className="object-cover"
@@ -86,9 +86,8 @@ export default function HeroSection() {
               animate={isVisible ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: 0.5 }}
             >
-              Aspiring electronics engineer with a passion for innovation and technology
+              Aspiring ECE Engineer with a passion for innovation and technology
             </motion.p>
-
             <motion.div
               initial={{ opacity: 0 }}
               animate={isVisible ? { opacity: 1 } : {}}

@@ -14,13 +14,13 @@ const education = [
   {
     degree: "Higher Secondary (Science Stream)",
     institution: "Panchberia Ramchandra Smriti Siksha Mandir",
-    period: "2020 - 2022",
+    period: "2019 - 2021",
     icon: <GraduationCap className="w-6 h-6" />,
   },
   {
     degree: "Secondary Education",
     institution: "Panchberia Ramchandra Smriti Siksha Mandir",
-    period: "Completed 2020",
+    period: "Completed 2019",
     icon: <GraduationCap className="w-6 h-6" />,
   },
 ]
